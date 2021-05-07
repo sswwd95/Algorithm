@@ -13,3 +13,9 @@ for i in data:
 left = 3
 right = 4
 print(prefix_sum[right] - prefix_sum[left - 1])
+
+# 70
+
+# 현재 코드에서는 쿼리가 1개만 존재하지만,
+# N개만큼 많은 쿼리가 들어오더라도
+# 각 쿼리에 대해서상수시간에 처리 가능하다.
