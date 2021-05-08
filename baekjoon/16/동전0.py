@@ -18,4 +18,3 @@ n, k = map(int, input().split())
 k = 4200
 for i in range(10):
     n = i
-n = 
